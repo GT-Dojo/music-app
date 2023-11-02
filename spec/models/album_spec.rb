@@ -6,6 +6,7 @@ RSpec.describe Album do
   describe 'associations' do
     it { is_expected.to belong_to(:artist) }
     it { is_expected.to belong_to(:publisher) }
+    it { is_expected.to have_many(:songs) }
   end
 
   describe 'validations' do
