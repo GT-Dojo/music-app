@@ -8,4 +8,6 @@ class Album < ApplicationRecord
 
   validates :name, :released_date, presence: true
   validates :name, length: { maximum: 200 }
+
+  accepts_nested_attributes_for :songs
 end

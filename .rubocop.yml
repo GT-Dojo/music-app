@@ -44,3 +44,11 @@ RSpec/MultipleMemoizedHelpers:
 # https://docs.rubocop.org/rubocop/cops_style.html#styletrailingcommainhashliteral
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: consistent_comma
+
+RSpec/ExampleLength:
+  Enabled: false
+RSpec/MultipleExpectations:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
