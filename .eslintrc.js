@@ -76,6 +76,8 @@ module.exports = {
     // Disable this rules as we are using new JSX transform
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
+
+    'import/no-named-as-default': 'off',
   },
   overrides: [
     {
