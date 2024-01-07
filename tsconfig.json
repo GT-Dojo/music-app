@@ -15,7 +15,11 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "app/javascript"
+    "baseUrl": "app/javascript",
+    "paths": {
+      "@application/*": ["./application/*"],
+      "@shared/*": ["./shared/*"]
+    }
   },
   "include": ["app/javascript/**/*.ts", "app/javascript/**/*.tsx"]
 }
