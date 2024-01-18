@@ -7,7 +7,7 @@ export interface Artist {
 
 export type CreateArtistData = Pick<Artist, 'name'>;
 
-export function apiCreateArtist(roleId: Artist['id'], data: CreateArtistData) {
+export function apiCreateArtist(data: CreateArtistData) {
   return executeApi<Artist>({
     url: `/artists`,
     method: 'POST',

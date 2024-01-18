@@ -17,8 +17,7 @@
     "jsx": "react-jsx",
     "baseUrl": "app/javascript",
     "paths": {
-      "@application/*": ["./application/*"],
-      "@shared/*": ["./shared/*"]
+      "@application/*": ["./application/*"]
     }
   },
   "include": ["app/javascript/**/*.ts", "app/javascript/**/*.tsx"]

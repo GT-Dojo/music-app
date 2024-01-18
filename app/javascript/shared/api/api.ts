@@ -1,7 +1,7 @@
 import axios, { isAxiosError } from 'axios';
 import camelcaseKeys from 'camelcase-keys';
 import decamelizeKeys from 'decamelize-keys';
-import { parseAuthenticityToken } from '@shared/helpers';
+import { parseAuthenticityToken } from '../helpers/parseAuthenticityToken';
 
 let csrfToken: string;
 
